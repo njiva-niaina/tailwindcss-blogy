@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss css/build/main.css -o css/prod/main.css"
+    "build:css": "postcss css/build/main.css -o css/prod/main.css",
+    "prod:css": "NODE_ENV=production postcss css/build/main.css -o css/prod/main.min.css"
   },
   "keywords": [],
   "author": "",
